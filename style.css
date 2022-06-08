@@ -31,7 +31,8 @@ header {
 }
 
 .logo {
-    width: 8%;
+    width: 20%;
+    padding: 0;
 }
 
 a {
@@ -65,7 +66,7 @@ nav ul {
 }
 
 .active {
-    color: red;
+    color: yellow;
 }
 
 .imagecontainer {
@@ -116,7 +117,7 @@ p {
 }
 
 p a {
-    color: red;
+    color: yellow;
 }
 
 div h2 {
@@ -141,11 +142,23 @@ footer {
 }
 
 .footer-icons {
-    margin-top: 30px;
+    margin-top: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .box1 {
     justify-self: left;
+}
+
+.box1 p {
+    margin-top: 50%;
+}
+
+.box3 p {
+    margin-top: 35.5px;
 }
 
 .box2 {
@@ -157,7 +170,7 @@ footer {
 }
 
 #footercontent {
-    padding-top: 20px;
+    padding-top: 100px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -231,5 +244,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgb(160, 0, 0);
+    background-color: red(160, 0, 0);
 }
