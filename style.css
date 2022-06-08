@@ -15,7 +15,7 @@ header {
     padding: 30px 0%;
 }
 
-.background{
+.background {
     background-image: url("../Assets/Bilder/Hintergrund.jpg");
     background-size: 125%;
     background-repeat: no-repeat;
@@ -27,7 +27,8 @@ header {
     margin-top: -125px;
     margin-left: -50vw;
     left: 50%;
-filter: blur(4px);}
+    filter: blur(4px);
+}
 
 .logo {
     width: 8%;
@@ -63,7 +64,6 @@ nav ul {
     color: rgb(83, 83, 83);
 }
 
-
 .active {
     color: red;
 }
@@ -89,7 +89,6 @@ img {
     filter: blur(0px);
 }
 
-
 .videocontainer {
     align-items: center;
     padding-top: 3em;
@@ -106,7 +105,9 @@ video {
     padding-bottom: 3em;
 }
 
-.contentcontainer div p{color: black;}
+.contentcontainer div p {
+    color: black;
+}
 
 .contentcontainer div {}
 
@@ -134,6 +135,7 @@ footer {
 }
 
 .footer {
+    font-size: 14px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -177,14 +179,12 @@ footer ul {
     opacity: 100%;
 }
 
-
 #adresse {
     list-style: none;
     text-align: left;
     padding: 0px;
     font-size: medium;
     margin-top: -55px;
-
 }
 
 #adresse li {
@@ -220,7 +220,6 @@ textarea {
     margin-bottom: 16px;
     resize: vertical
 }
-
 
 input[type=submit] {
     background-color: red;
